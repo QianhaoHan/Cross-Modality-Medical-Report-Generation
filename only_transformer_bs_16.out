@@ -1,0 +1,1051 @@
+10/26/2023 10:18:10 - INFO - modules.trainer -   [1/70] Start to train in the training set.
+10/26/2023 10:18:12 - INFO - modules.trainer -   [1/70] Step: 0/130, Training Loss: 6.76869.
+10/26/2023 10:18:27 - INFO - modules.trainer -   [1/70] Step: 50/130, Training Loss: 4.03894.
+10/26/2023 10:18:43 - INFO - modules.trainer -   [1/70] Step: 100/130, Training Loss: 3.31420.
+10/26/2023 10:18:52 - INFO - modules.trainer -   [1/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:19:18 - INFO - modules.trainer -   [1/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:19:58 - INFO - modules.trainer -   	epoch          : 1
+10/26/2023 10:19:58 - INFO - modules.trainer -   	train_loss     : 3.10049915772218
+10/26/2023 10:19:58 - INFO - modules.trainer -   	val_BLEU_1     : 0.39438583362753643
+10/26/2023 10:19:58 - INFO - modules.trainer -   	val_BLEU_2     : 0.2521775847611738
+10/26/2023 10:19:58 - INFO - modules.trainer -   	val_BLEU_3     : 0.1797145890268756
+10/26/2023 10:19:58 - INFO - modules.trainer -   	val_BLEU_4     : 0.13519926742199123
+10/26/2023 10:19:58 - INFO - modules.trainer -   	val_METEOR     : 0.16036443227597372
+10/26/2023 10:19:58 - INFO - modules.trainer -   	val_ROUGE_L    : 0.36564023989917804
+10/26/2023 10:19:58 - INFO - modules.trainer -   	test_BLEU_1    : 0.440991247837576
+10/26/2023 10:19:58 - INFO - modules.trainer -   	test_BLEU_2    : 0.2859663746134669
+10/26/2023 10:19:58 - INFO - modules.trainer -   	test_BLEU_3    : 0.20811093678001313
+10/26/2023 10:19:58 - INFO - modules.trainer -   	test_BLEU_4    : 0.15886318278870087
+10/26/2023 10:19:58 - INFO - modules.trainer -   	test_METEOR    : 0.17952707904292714
+10/26/2023 10:19:58 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3821467049239848
+10/26/2023 10:20:04 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:20:09 - INFO - modules.trainer -   Saving current best: model_best.pth ...
+10/26/2023 10:20:09 - INFO - modules.trainer -   [2/70] Start to train in the training set.
+10/26/2023 10:20:10 - INFO - modules.trainer -   [2/70] Step: 0/130, Training Loss: 2.01161.
+10/26/2023 10:20:26 - INFO - modules.trainer -   [2/70] Step: 50/130, Training Loss: 2.10515.
+10/26/2023 10:20:41 - INFO - modules.trainer -   [2/70] Step: 100/130, Training Loss: 2.03964.
+10/26/2023 10:20:51 - INFO - modules.trainer -   [2/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:21:16 - INFO - modules.trainer -   [2/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:21:56 - INFO - modules.trainer -   	epoch          : 2
+10/26/2023 10:21:56 - INFO - modules.trainer -   	train_loss     : 1.9938222114856428
+10/26/2023 10:21:56 - INFO - modules.trainer -   	val_BLEU_1     : 0.08475980215159856
+10/26/2023 10:21:56 - INFO - modules.trainer -   	val_BLEU_2     : 0.044479019135052825
+10/26/2023 10:21:56 - INFO - modules.trainer -   	val_BLEU_3     : 0.027839377193817277
+10/26/2023 10:21:56 - INFO - modules.trainer -   	val_BLEU_4     : 0.020525277276295977
+10/26/2023 10:21:56 - INFO - modules.trainer -   	val_METEOR     : 0.07258620615600085
+10/26/2023 10:21:56 - INFO - modules.trainer -   	val_ROUGE_L    : 0.24273435517654238
+10/26/2023 10:21:56 - INFO - modules.trainer -   	test_BLEU_1    : 0.10916125902518264
+10/26/2023 10:21:56 - INFO - modules.trainer -   	test_BLEU_2    : 0.057416969584810955
+10/26/2023 10:21:56 - INFO - modules.trainer -   	test_BLEU_3    : 0.03649596683337597
+10/26/2023 10:21:56 - INFO - modules.trainer -   	test_BLEU_4    : 0.027243998496481264
+10/26/2023 10:21:56 - INFO - modules.trainer -   	test_METEOR    : 0.08170272022775855
+10/26/2023 10:21:56 - INFO - modules.trainer -   	test_ROUGE_L   : 0.25849353494887883
+10/26/2023 10:22:01 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:22:01 - INFO - modules.trainer -   [3/70] Start to train in the training set.
+10/26/2023 10:22:02 - INFO - modules.trainer -   [3/70] Step: 0/130, Training Loss: 2.04698.
+10/26/2023 10:22:18 - INFO - modules.trainer -   [3/70] Step: 50/130, Training Loss: 1.77397.
+10/26/2023 10:22:34 - INFO - modules.trainer -   [3/70] Step: 100/130, Training Loss: 1.72202.
+10/26/2023 10:22:43 - INFO - modules.trainer -   [3/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:23:08 - INFO - modules.trainer -   [3/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:23:48 - INFO - modules.trainer -   	epoch          : 3
+10/26/2023 10:23:48 - INFO - modules.trainer -   	train_loss     : 1.7045127841142507
+10/26/2023 10:23:48 - INFO - modules.trainer -   	val_BLEU_1     : 0.1988625889127359
+10/26/2023 10:23:48 - INFO - modules.trainer -   	val_BLEU_2     : 0.1180353903908086
+10/26/2023 10:23:48 - INFO - modules.trainer -   	val_BLEU_3     : 0.0835544869652126
+10/26/2023 10:23:48 - INFO - modules.trainer -   	val_BLEU_4     : 0.06400886298630389
+10/26/2023 10:23:48 - INFO - modules.trainer -   	val_METEOR     : 0.1034722429799017
+10/26/2023 10:23:48 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29474007494202537
+10/26/2023 10:23:48 - INFO - modules.trainer -   	test_BLEU_1    : 0.2414891728040812
+10/26/2023 10:23:48 - INFO - modules.trainer -   	test_BLEU_2    : 0.14657508017251872
+10/26/2023 10:23:48 - INFO - modules.trainer -   	test_BLEU_3    : 0.10545486468993152
+10/26/2023 10:23:48 - INFO - modules.trainer -   	test_BLEU_4    : 0.08101704657824713
+10/26/2023 10:23:48 - INFO - modules.trainer -   	test_METEOR    : 0.11945841070409312
+10/26/2023 10:23:48 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3121804906222145
+10/26/2023 10:23:53 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:23:53 - INFO - modules.trainer -   [4/70] Start to train in the training set.
+10/26/2023 10:23:54 - INFO - modules.trainer -   [4/70] Step: 0/130, Training Loss: 1.61747.
+10/26/2023 10:24:10 - INFO - modules.trainer -   [4/70] Step: 50/130, Training Loss: 1.55441.
+10/26/2023 10:24:26 - INFO - modules.trainer -   [4/70] Step: 100/130, Training Loss: 1.53313.
+10/26/2023 10:24:35 - INFO - modules.trainer -   [4/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:25:01 - INFO - modules.trainer -   [4/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:25:41 - INFO - modules.trainer -   	epoch          : 4
+10/26/2023 10:25:41 - INFO - modules.trainer -   	train_loss     : 1.5256412139305702
+10/26/2023 10:25:41 - INFO - modules.trainer -   	val_BLEU_1     : 0.3701209334018495
+10/26/2023 10:25:41 - INFO - modules.trainer -   	val_BLEU_2     : 0.2255295705267866
+10/26/2023 10:25:41 - INFO - modules.trainer -   	val_BLEU_3     : 0.15500253653842255
+10/26/2023 10:25:41 - INFO - modules.trainer -   	val_BLEU_4     : 0.1134215024552107
+10/26/2023 10:25:41 - INFO - modules.trainer -   	val_METEOR     : 0.15055151692654678
+10/26/2023 10:25:41 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3217286638269904
+10/26/2023 10:25:41 - INFO - modules.trainer -   	test_BLEU_1    : 0.4122519510882386
+10/26/2023 10:25:41 - INFO - modules.trainer -   	test_BLEU_2    : 0.25672436459963544
+10/26/2023 10:25:41 - INFO - modules.trainer -   	test_BLEU_3    : 0.18249407642371707
+10/26/2023 10:25:41 - INFO - modules.trainer -   	test_BLEU_4    : 0.13741894606793742
+10/26/2023 10:25:41 - INFO - modules.trainer -   	test_METEOR    : 0.1677300668271855
+10/26/2023 10:25:41 - INFO - modules.trainer -   	test_ROUGE_L   : 0.339490577406905
+10/26/2023 10:25:47 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:25:47 - INFO - modules.trainer -   [5/70] Start to train in the training set.
+10/26/2023 10:25:48 - INFO - modules.trainer -   [5/70] Step: 0/130, Training Loss: 1.73365.
+10/26/2023 10:26:03 - INFO - modules.trainer -   [5/70] Step: 50/130, Training Loss: 1.38411.
+10/26/2023 10:26:19 - INFO - modules.trainer -   [5/70] Step: 100/130, Training Loss: 1.38563.
+10/26/2023 10:26:28 - INFO - modules.trainer -   [5/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:26:54 - INFO - modules.trainer -   [5/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:27:34 - INFO - modules.trainer -   	epoch          : 5
+10/26/2023 10:27:34 - INFO - modules.trainer -   	train_loss     : 1.3830135249174558
+10/26/2023 10:27:34 - INFO - modules.trainer -   	val_BLEU_1     : 0.22510981156375842
+10/26/2023 10:27:34 - INFO - modules.trainer -   	val_BLEU_2     : 0.10500521430569239
+10/26/2023 10:27:34 - INFO - modules.trainer -   	val_BLEU_3     : 0.0577391017808851
+10/26/2023 10:27:34 - INFO - modules.trainer -   	val_BLEU_4     : 0.03312912314847736
+10/26/2023 10:27:34 - INFO - modules.trainer -   	val_METEOR     : 0.08959438590176282
+10/26/2023 10:27:34 - INFO - modules.trainer -   	val_ROUGE_L    : 0.2449662455028911
+10/26/2023 10:27:34 - INFO - modules.trainer -   	test_BLEU_1    : 0.27133674123872176
+10/26/2023 10:27:34 - INFO - modules.trainer -   	test_BLEU_2    : 0.14722427733916166
+10/26/2023 10:27:34 - INFO - modules.trainer -   	test_BLEU_3    : 0.09745193803055598
+10/26/2023 10:27:34 - INFO - modules.trainer -   	test_BLEU_4    : 0.07037842594417602
+10/26/2023 10:27:34 - INFO - modules.trainer -   	test_METEOR    : 0.10833171011765766
+10/26/2023 10:27:34 - INFO - modules.trainer -   	test_ROUGE_L   : 0.2870889749603883
+10/26/2023 10:27:40 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:27:40 - INFO - modules.trainer -   [6/70] Start to train in the training set.
+10/26/2023 10:27:41 - INFO - modules.trainer -   [6/70] Step: 0/130, Training Loss: 1.33939.
+10/26/2023 10:27:57 - INFO - modules.trainer -   [6/70] Step: 50/130, Training Loss: 1.24620.
+10/26/2023 10:28:13 - INFO - modules.trainer -   [6/70] Step: 100/130, Training Loss: 1.24400.
+10/26/2023 10:28:22 - INFO - modules.trainer -   [6/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:28:47 - INFO - modules.trainer -   [6/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:29:28 - INFO - modules.trainer -   	epoch          : 6
+10/26/2023 10:29:28 - INFO - modules.trainer -   	train_loss     : 1.2624064193322109
+10/26/2023 10:29:28 - INFO - modules.trainer -   	val_BLEU_1     : 0.39782425756340095
+10/26/2023 10:29:28 - INFO - modules.trainer -   	val_BLEU_2     : 0.22086343392326305
+10/26/2023 10:29:28 - INFO - modules.trainer -   	val_BLEU_3     : 0.14531544315528053
+10/26/2023 10:29:28 - INFO - modules.trainer -   	val_BLEU_4     : 0.10354069133878253
+10/26/2023 10:29:28 - INFO - modules.trainer -   	val_METEOR     : 0.1469887419693322
+10/26/2023 10:29:28 - INFO - modules.trainer -   	val_ROUGE_L    : 0.30985461812546256
+10/26/2023 10:29:28 - INFO - modules.trainer -   	test_BLEU_1    : 0.43352826854461307
+10/26/2023 10:29:28 - INFO - modules.trainer -   	test_BLEU_2    : 0.2610299259687669
+10/26/2023 10:29:28 - INFO - modules.trainer -   	test_BLEU_3    : 0.1868083039763834
+10/26/2023 10:29:28 - INFO - modules.trainer -   	test_BLEU_4    : 0.14364161692807298
+10/26/2023 10:29:28 - INFO - modules.trainer -   	test_METEOR    : 0.16666527732917688
+10/26/2023 10:29:28 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33745422759603305
+10/26/2023 10:29:39 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:29:39 - INFO - modules.trainer -   [7/70] Start to train in the training set.
+10/26/2023 10:29:40 - INFO - modules.trainer -   [7/70] Step: 0/130, Training Loss: 1.07545.
+10/26/2023 10:29:56 - INFO - modules.trainer -   [7/70] Step: 50/130, Training Loss: 1.12826.
+10/26/2023 10:30:11 - INFO - modules.trainer -   [7/70] Step: 100/130, Training Loss: 1.15174.
+10/26/2023 10:30:21 - INFO - modules.trainer -   [7/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:30:46 - INFO - modules.trainer -   [7/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:31:29 - INFO - modules.trainer -   	epoch          : 7
+10/26/2023 10:31:29 - INFO - modules.trainer -   	train_loss     : 1.1645058517272655
+10/26/2023 10:31:29 - INFO - modules.trainer -   	val_BLEU_1     : 0.1988625889127359
+10/26/2023 10:31:29 - INFO - modules.trainer -   	val_BLEU_2     : 0.1180353903908086
+10/26/2023 10:31:29 - INFO - modules.trainer -   	val_BLEU_3     : 0.0835544869652126
+10/26/2023 10:31:29 - INFO - modules.trainer -   	val_BLEU_4     : 0.06400886298630389
+10/26/2023 10:31:29 - INFO - modules.trainer -   	val_METEOR     : 0.1034722429799017
+10/26/2023 10:31:29 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29474007494202537
+10/26/2023 10:31:29 - INFO - modules.trainer -   	test_BLEU_1    : 0.2414891728040812
+10/26/2023 10:31:29 - INFO - modules.trainer -   	test_BLEU_2    : 0.14657508017251872
+10/26/2023 10:31:29 - INFO - modules.trainer -   	test_BLEU_3    : 0.10545486468993152
+10/26/2023 10:31:29 - INFO - modules.trainer -   	test_BLEU_4    : 0.08101704657824713
+10/26/2023 10:31:29 - INFO - modules.trainer -   	test_METEOR    : 0.11945841070409312
+10/26/2023 10:31:29 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3121804906222145
+10/26/2023 10:31:37 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:31:37 - INFO - modules.trainer -   [8/70] Start to train in the training set.
+10/26/2023 10:31:37 - INFO - modules.trainer -   [8/70] Step: 0/130, Training Loss: 1.05428.
+10/26/2023 10:31:53 - INFO - modules.trainer -   [8/70] Step: 50/130, Training Loss: 1.03118.
+10/26/2023 10:32:09 - INFO - modules.trainer -   [8/70] Step: 100/130, Training Loss: 1.06268.
+10/26/2023 10:32:18 - INFO - modules.trainer -   [8/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:32:44 - INFO - modules.trainer -   [8/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:33:25 - INFO - modules.trainer -   	epoch          : 8
+10/26/2023 10:33:25 - INFO - modules.trainer -   	train_loss     : 1.0727415809264549
+10/26/2023 10:33:25 - INFO - modules.trainer -   	val_BLEU_1     : 0.1988625889127359
+10/26/2023 10:33:25 - INFO - modules.trainer -   	val_BLEU_2     : 0.1180353903908086
+10/26/2023 10:33:25 - INFO - modules.trainer -   	val_BLEU_3     : 0.0835544869652126
+10/26/2023 10:33:25 - INFO - modules.trainer -   	val_BLEU_4     : 0.06400886298630389
+10/26/2023 10:33:25 - INFO - modules.trainer -   	val_METEOR     : 0.1034722429799017
+10/26/2023 10:33:25 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29474007494202537
+10/26/2023 10:33:25 - INFO - modules.trainer -   	test_BLEU_1    : 0.2414891728040812
+10/26/2023 10:33:25 - INFO - modules.trainer -   	test_BLEU_2    : 0.14657508017251872
+10/26/2023 10:33:25 - INFO - modules.trainer -   	test_BLEU_3    : 0.10545486468993152
+10/26/2023 10:33:25 - INFO - modules.trainer -   	test_BLEU_4    : 0.08101704657824713
+10/26/2023 10:33:25 - INFO - modules.trainer -   	test_METEOR    : 0.11945841070409312
+10/26/2023 10:33:25 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3121804906222145
+10/26/2023 10:33:31 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:33:31 - INFO - modules.trainer -   [9/70] Start to train in the training set.
+10/26/2023 10:33:32 - INFO - modules.trainer -   [9/70] Step: 0/130, Training Loss: 0.74600.
+10/26/2023 10:33:48 - INFO - modules.trainer -   [9/70] Step: 50/130, Training Loss: 0.99657.
+10/26/2023 10:34:04 - INFO - modules.trainer -   [9/70] Step: 100/130, Training Loss: 0.98983.
+10/26/2023 10:34:13 - INFO - modules.trainer -   [9/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:34:39 - INFO - modules.trainer -   [9/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:35:19 - INFO - modules.trainer -   	epoch          : 9
+10/26/2023 10:35:19 - INFO - modules.trainer -   	train_loss     : 0.9946871170630822
+10/26/2023 10:35:19 - INFO - modules.trainer -   	val_BLEU_1     : 0.24808821038235876
+10/26/2023 10:35:19 - INFO - modules.trainer -   	val_BLEU_2     : 0.14462721448584226
+10/26/2023 10:35:19 - INFO - modules.trainer -   	val_BLEU_3     : 0.09931446859081376
+10/26/2023 10:35:19 - INFO - modules.trainer -   	val_BLEU_4     : 0.07377083889571816
+10/26/2023 10:35:19 - INFO - modules.trainer -   	val_METEOR     : 0.11271857706249884
+10/26/2023 10:35:19 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3009904492973166
+10/26/2023 10:35:19 - INFO - modules.trainer -   	test_BLEU_1    : 0.2829797269983712
+10/26/2023 10:35:19 - INFO - modules.trainer -   	test_BLEU_2    : 0.17059737928810126
+10/26/2023 10:35:19 - INFO - modules.trainer -   	test_BLEU_3    : 0.12159141631149252
+10/26/2023 10:35:19 - INFO - modules.trainer -   	test_BLEU_4    : 0.09287808166548268
+10/26/2023 10:35:19 - INFO - modules.trainer -   	test_METEOR    : 0.1273848911586119
+10/26/2023 10:35:19 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3169736996640045
+10/26/2023 10:35:24 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:35:24 - INFO - modules.trainer -   [10/70] Start to train in the training set.
+10/26/2023 10:35:25 - INFO - modules.trainer -   [10/70] Step: 0/130, Training Loss: 0.91944.
+10/26/2023 10:35:41 - INFO - modules.trainer -   [10/70] Step: 50/130, Training Loss: 0.89731.
+10/26/2023 10:35:57 - INFO - modules.trainer -   [10/70] Step: 100/130, Training Loss: 0.90806.
+10/26/2023 10:36:06 - INFO - modules.trainer -   [10/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:36:32 - INFO - modules.trainer -   [10/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:37:12 - INFO - modules.trainer -   	epoch          : 10
+10/26/2023 10:37:12 - INFO - modules.trainer -   	train_loss     : 0.9137768172300779
+10/26/2023 10:37:12 - INFO - modules.trainer -   	val_BLEU_1     : 0.3470578692639548
+10/26/2023 10:37:12 - INFO - modules.trainer -   	val_BLEU_2     : 0.20956850075583955
+10/26/2023 10:37:12 - INFO - modules.trainer -   	val_BLEU_3     : 0.14028265140342372
+10/26/2023 10:37:12 - INFO - modules.trainer -   	val_BLEU_4     : 0.10048500171846707
+10/26/2023 10:37:12 - INFO - modules.trainer -   	val_METEOR     : 0.14542176350922223
+10/26/2023 10:37:12 - INFO - modules.trainer -   	val_ROUGE_L    : 0.30575124943042714
+10/26/2023 10:37:12 - INFO - modules.trainer -   	test_BLEU_1    : 0.39329835252429834
+10/26/2023 10:37:12 - INFO - modules.trainer -   	test_BLEU_2    : 0.24876184619735758
+10/26/2023 10:37:12 - INFO - modules.trainer -   	test_BLEU_3    : 0.17613753742968022
+10/26/2023 10:37:12 - INFO - modules.trainer -   	test_BLEU_4    : 0.1345050868968071
+10/26/2023 10:37:12 - INFO - modules.trainer -   	test_METEOR    : 0.16565412571034246
+10/26/2023 10:37:12 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3433634711932046
+10/26/2023 10:37:17 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:37:17 - INFO - modules.trainer -   [11/70] Start to train in the training set.
+10/26/2023 10:37:18 - INFO - modules.trainer -   [11/70] Step: 0/130, Training Loss: 0.81167.
+10/26/2023 10:37:34 - INFO - modules.trainer -   [11/70] Step: 50/130, Training Loss: 0.80678.
+10/26/2023 10:37:50 - INFO - modules.trainer -   [11/70] Step: 100/130, Training Loss: 0.81490.
+10/26/2023 10:37:59 - INFO - modules.trainer -   [11/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:38:24 - INFO - modules.trainer -   [11/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:39:05 - INFO - modules.trainer -   	epoch          : 11
+10/26/2023 10:39:05 - INFO - modules.trainer -   	train_loss     : 0.8169060775866875
+10/26/2023 10:39:05 - INFO - modules.trainer -   	val_BLEU_1     : 0.281529628695124
+10/26/2023 10:39:05 - INFO - modules.trainer -   	val_BLEU_2     : 0.1694996451093297
+10/26/2023 10:39:05 - INFO - modules.trainer -   	val_BLEU_3     : 0.11717473955219523
+10/26/2023 10:39:05 - INFO - modules.trainer -   	val_BLEU_4     : 0.08742712922516586
+10/26/2023 10:39:05 - INFO - modules.trainer -   	val_METEOR     : 0.12874461727816008
+10/26/2023 10:39:05 - INFO - modules.trainer -   	val_ROUGE_L    : 0.30544185987028616
+10/26/2023 10:39:05 - INFO - modules.trainer -   	test_BLEU_1    : 0.31341658432795877
+10/26/2023 10:39:05 - INFO - modules.trainer -   	test_BLEU_2    : 0.19054299925805374
+10/26/2023 10:39:05 - INFO - modules.trainer -   	test_BLEU_3    : 0.132897448908583
+10/26/2023 10:39:05 - INFO - modules.trainer -   	test_BLEU_4    : 0.09906651333361993
+10/26/2023 10:39:05 - INFO - modules.trainer -   	test_METEOR    : 0.13877764501468876
+10/26/2023 10:39:05 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3131714922748127
+10/26/2023 10:39:11 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:39:11 - INFO - modules.trainer -   [12/70] Start to train in the training set.
+10/26/2023 10:39:11 - INFO - modules.trainer -   [12/70] Step: 0/130, Training Loss: 0.63087.
+10/26/2023 10:39:27 - INFO - modules.trainer -   [12/70] Step: 50/130, Training Loss: 0.74905.
+10/26/2023 10:39:43 - INFO - modules.trainer -   [12/70] Step: 100/130, Training Loss: 0.74581.
+10/26/2023 10:39:52 - INFO - modules.trainer -   [12/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:40:17 - INFO - modules.trainer -   [12/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:40:57 - INFO - modules.trainer -   	epoch          : 12
+10/26/2023 10:40:57 - INFO - modules.trainer -   	train_loss     : 0.7575296832964971
+10/26/2023 10:40:57 - INFO - modules.trainer -   	val_BLEU_1     : 0.22658420925703768
+10/26/2023 10:40:57 - INFO - modules.trainer -   	val_BLEU_2     : 0.13282890905001735
+10/26/2023 10:40:57 - INFO - modules.trainer -   	val_BLEU_3     : 0.09267284839868412
+10/26/2023 10:40:57 - INFO - modules.trainer -   	val_BLEU_4     : 0.0699959150194489
+10/26/2023 10:40:57 - INFO - modules.trainer -   	val_METEOR     : 0.1087611454484852
+10/26/2023 10:40:57 - INFO - modules.trainer -   	val_ROUGE_L    : 0.2960066217397894
+10/26/2023 10:40:57 - INFO - modules.trainer -   	test_BLEU_1    : 0.26663911718076827
+10/26/2023 10:40:57 - INFO - modules.trainer -   	test_BLEU_2    : 0.15848499872348462
+10/26/2023 10:40:57 - INFO - modules.trainer -   	test_BLEU_3    : 0.11224471921069304
+10/26/2023 10:40:57 - INFO - modules.trainer -   	test_BLEU_4    : 0.08504566576971671
+10/26/2023 10:40:57 - INFO - modules.trainer -   	test_METEOR    : 0.12296018368429745
+10/26/2023 10:40:57 - INFO - modules.trainer -   	test_ROUGE_L   : 0.31033194776760525
+10/26/2023 10:41:03 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:41:03 - INFO - modules.trainer -   [13/70] Start to train in the training set.
+10/26/2023 10:41:04 - INFO - modules.trainer -   [13/70] Step: 0/130, Training Loss: 0.58902.
+10/26/2023 10:41:20 - INFO - modules.trainer -   [13/70] Step: 50/130, Training Loss: 0.67698.
+10/26/2023 10:41:36 - INFO - modules.trainer -   [13/70] Step: 100/130, Training Loss: 0.69361.
+10/26/2023 10:41:45 - INFO - modules.trainer -   [13/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:42:10 - INFO - modules.trainer -   [13/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:42:51 - INFO - modules.trainer -   	epoch          : 13
+10/26/2023 10:42:51 - INFO - modules.trainer -   	train_loss     : 0.7013038593989153
+10/26/2023 10:42:51 - INFO - modules.trainer -   	val_BLEU_1     : 0.21825077441267232
+10/26/2023 10:42:51 - INFO - modules.trainer -   	val_BLEU_2     : 0.12684843131529455
+10/26/2023 10:42:51 - INFO - modules.trainer -   	val_BLEU_3     : 0.0874139538938256
+10/26/2023 10:42:51 - INFO - modules.trainer -   	val_BLEU_4     : 0.06523142612480658
+10/26/2023 10:42:51 - INFO - modules.trainer -   	val_METEOR     : 0.10781761754798873
+10/26/2023 10:42:51 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29235671990772205
+10/26/2023 10:42:51 - INFO - modules.trainer -   	test_BLEU_1    : 0.2598281876547969
+10/26/2023 10:42:51 - INFO - modules.trainer -   	test_BLEU_2    : 0.15773493752232806
+10/26/2023 10:42:51 - INFO - modules.trainer -   	test_BLEU_3    : 0.11243301945590886
+10/26/2023 10:42:51 - INFO - modules.trainer -   	test_BLEU_4    : 0.08507905237235898
+10/26/2023 10:42:51 - INFO - modules.trainer -   	test_METEOR    : 0.12406478483954855
+10/26/2023 10:42:51 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3090363008243223
+10/26/2023 10:42:57 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:42:57 - INFO - modules.trainer -   [14/70] Start to train in the training set.
+10/26/2023 10:42:58 - INFO - modules.trainer -   [14/70] Step: 0/130, Training Loss: 0.50430.
+10/26/2023 10:43:14 - INFO - modules.trainer -   [14/70] Step: 50/130, Training Loss: 0.64259.
+10/26/2023 10:43:30 - INFO - modules.trainer -   [14/70] Step: 100/130, Training Loss: 0.65251.
+10/26/2023 10:43:39 - INFO - modules.trainer -   [14/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:44:04 - INFO - modules.trainer -   [14/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:44:45 - INFO - modules.trainer -   	epoch          : 14
+10/26/2023 10:44:45 - INFO - modules.trainer -   	train_loss     : 0.6570994395476121
+10/26/2023 10:44:45 - INFO - modules.trainer -   	val_BLEU_1     : 0.3651658386135963
+10/26/2023 10:44:45 - INFO - modules.trainer -   	val_BLEU_2     : 0.22101218343197213
+10/26/2023 10:44:45 - INFO - modules.trainer -   	val_BLEU_3     : 0.15279955441549253
+10/26/2023 10:44:45 - INFO - modules.trainer -   	val_BLEU_4     : 0.11149229848666087
+10/26/2023 10:44:45 - INFO - modules.trainer -   	val_METEOR     : 0.14400975512227987
+10/26/2023 10:44:45 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3031837608840699
+10/26/2023 10:44:45 - INFO - modules.trainer -   	test_BLEU_1    : 0.40473623398805375
+10/26/2023 10:44:45 - INFO - modules.trainer -   	test_BLEU_2    : 0.2545168280367007
+10/26/2023 10:44:45 - INFO - modules.trainer -   	test_BLEU_3    : 0.18126128006034853
+10/26/2023 10:44:45 - INFO - modules.trainer -   	test_BLEU_4    : 0.13596681859014845
+10/26/2023 10:44:45 - INFO - modules.trainer -   	test_METEOR    : 0.16096005602115915
+10/26/2023 10:44:45 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3289346516612856
+10/26/2023 10:44:50 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:44:50 - INFO - modules.trainer -   [15/70] Start to train in the training set.
+10/26/2023 10:44:51 - INFO - modules.trainer -   [15/70] Step: 0/130, Training Loss: 0.54023.
+10/26/2023 10:45:07 - INFO - modules.trainer -   [15/70] Step: 50/130, Training Loss: 0.59888.
+10/26/2023 10:45:23 - INFO - modules.trainer -   [15/70] Step: 100/130, Training Loss: 0.61043.
+10/26/2023 10:45:32 - INFO - modules.trainer -   [15/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:45:56 - INFO - modules.trainer -   [15/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:46:36 - INFO - modules.trainer -   	epoch          : 15
+10/26/2023 10:46:36 - INFO - modules.trainer -   	train_loss     : 0.6193252100394322
+10/26/2023 10:46:36 - INFO - modules.trainer -   	val_BLEU_1     : 0.3277189304229283
+10/26/2023 10:46:36 - INFO - modules.trainer -   	val_BLEU_2     : 0.18867331099886797
+10/26/2023 10:46:36 - INFO - modules.trainer -   	val_BLEU_3     : 0.1274427619944605
+10/26/2023 10:46:36 - INFO - modules.trainer -   	val_BLEU_4     : 0.0923258770778871
+10/26/2023 10:46:36 - INFO - modules.trainer -   	val_METEOR     : 0.13213987818970688
+10/26/2023 10:46:36 - INFO - modules.trainer -   	val_ROUGE_L    : 0.2964513712775492
+10/26/2023 10:46:36 - INFO - modules.trainer -   	test_BLEU_1    : 0.3888886221336398
+10/26/2023 10:46:36 - INFO - modules.trainer -   	test_BLEU_2    : 0.24439250112263403
+10/26/2023 10:46:36 - INFO - modules.trainer -   	test_BLEU_3    : 0.17836015201570565
+10/26/2023 10:46:36 - INFO - modules.trainer -   	test_BLEU_4    : 0.13881261396077865
+10/26/2023 10:46:36 - INFO - modules.trainer -   	test_METEOR    : 0.15983592851196735
+10/26/2023 10:46:36 - INFO - modules.trainer -   	test_ROUGE_L   : 0.34311695870440456
+10/26/2023 10:46:41 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:46:41 - INFO - modules.trainer -   [16/70] Start to train in the training set.
+10/26/2023 10:46:42 - INFO - modules.trainer -   [16/70] Step: 0/130, Training Loss: 0.56531.
+10/26/2023 10:46:58 - INFO - modules.trainer -   [16/70] Step: 50/130, Training Loss: 0.56598.
+10/26/2023 10:47:14 - INFO - modules.trainer -   [16/70] Step: 100/130, Training Loss: 0.57643.
+10/26/2023 10:47:23 - INFO - modules.trainer -   [16/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:47:48 - INFO - modules.trainer -   [16/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:48:28 - INFO - modules.trainer -   	epoch          : 16
+10/26/2023 10:48:28 - INFO - modules.trainer -   	train_loss     : 0.5829023274091574
+10/26/2023 10:48:28 - INFO - modules.trainer -   	val_BLEU_1     : 0.41807220988078003
+10/26/2023 10:48:28 - INFO - modules.trainer -   	val_BLEU_2     : 0.24488066958099905
+10/26/2023 10:48:28 - INFO - modules.trainer -   	val_BLEU_3     : 0.1662586592623649
+10/26/2023 10:48:28 - INFO - modules.trainer -   	val_BLEU_4     : 0.12094706827710011
+10/26/2023 10:48:28 - INFO - modules.trainer -   	val_METEOR     : 0.15169026877374658
+10/26/2023 10:48:28 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3174547398446618
+10/26/2023 10:48:28 - INFO - modules.trainer -   	test_BLEU_1    : 0.4420725388600807
+10/26/2023 10:48:28 - INFO - modules.trainer -   	test_BLEU_2    : 0.2756991363123542
+10/26/2023 10:48:28 - INFO - modules.trainer -   	test_BLEU_3    : 0.20020543475737593
+10/26/2023 10:48:28 - INFO - modules.trainer -   	test_BLEU_4    : 0.15497229129774814
+10/26/2023 10:48:28 - INFO - modules.trainer -   	test_METEOR    : 0.1731660765349652
+10/26/2023 10:48:28 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3450053088566095
+10/26/2023 10:48:33 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:48:33 - INFO - modules.trainer -   [17/70] Start to train in the training set.
+10/26/2023 10:48:34 - INFO - modules.trainer -   [17/70] Step: 0/130, Training Loss: 0.59633.
+10/26/2023 10:48:50 - INFO - modules.trainer -   [17/70] Step: 50/130, Training Loss: 0.52118.
+10/26/2023 10:49:05 - INFO - modules.trainer -   [17/70] Step: 100/130, Training Loss: 0.54054.
+10/26/2023 10:49:15 - INFO - modules.trainer -   [17/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:49:39 - INFO - modules.trainer -   [17/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:50:19 - INFO - modules.trainer -   	epoch          : 17
+10/26/2023 10:50:19 - INFO - modules.trainer -   	train_loss     : 0.5489034730654496
+10/26/2023 10:50:19 - INFO - modules.trainer -   	val_BLEU_1     : 0.25887333695323217
+10/26/2023 10:50:19 - INFO - modules.trainer -   	val_BLEU_2     : 0.14139937447943055
+10/26/2023 10:50:19 - INFO - modules.trainer -   	val_BLEU_3     : 0.0926640557316613
+10/26/2023 10:50:19 - INFO - modules.trainer -   	val_BLEU_4     : 0.06556859773788003
+10/26/2023 10:50:19 - INFO - modules.trainer -   	val_METEOR     : 0.11123283285432231
+10/26/2023 10:50:19 - INFO - modules.trainer -   	val_ROUGE_L    : 0.2676693053246316
+10/26/2023 10:50:19 - INFO - modules.trainer -   	test_BLEU_1    : 0.3104452674719252
+10/26/2023 10:50:19 - INFO - modules.trainer -   	test_BLEU_2    : 0.18309778991508763
+10/26/2023 10:50:19 - INFO - modules.trainer -   	test_BLEU_3    : 0.12703818072792739
+10/26/2023 10:50:19 - INFO - modules.trainer -   	test_BLEU_4    : 0.09494325193928474
+10/26/2023 10:50:19 - INFO - modules.trainer -   	test_METEOR    : 0.13272311275943913
+10/26/2023 10:50:19 - INFO - modules.trainer -   	test_ROUGE_L   : 0.29505234254749946
+10/26/2023 10:50:25 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:50:25 - INFO - modules.trainer -   [18/70] Start to train in the training set.
+10/26/2023 10:50:26 - INFO - modules.trainer -   [18/70] Step: 0/130, Training Loss: 0.40887.
+10/26/2023 10:50:42 - INFO - modules.trainer -   [18/70] Step: 50/130, Training Loss: 0.50690.
+10/26/2023 10:50:57 - INFO - modules.trainer -   [18/70] Step: 100/130, Training Loss: 0.52128.
+10/26/2023 10:51:07 - INFO - modules.trainer -   [18/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:51:32 - INFO - modules.trainer -   [18/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:52:12 - INFO - modules.trainer -   	epoch          : 18
+10/26/2023 10:52:12 - INFO - modules.trainer -   	train_loss     : 0.5262220183244118
+10/26/2023 10:52:12 - INFO - modules.trainer -   	val_BLEU_1     : 0.3933571106294284
+10/26/2023 10:52:12 - INFO - modules.trainer -   	val_BLEU_2     : 0.23163743006801393
+10/26/2023 10:52:12 - INFO - modules.trainer -   	val_BLEU_3     : 0.1578697872229826
+10/26/2023 10:52:12 - INFO - modules.trainer -   	val_BLEU_4     : 0.11633845478763011
+10/26/2023 10:52:12 - INFO - modules.trainer -   	val_METEOR     : 0.1553494166974533
+10/26/2023 10:52:12 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3212198758933879
+10/26/2023 10:52:12 - INFO - modules.trainer -   	test_BLEU_1    : 0.42856568909622217
+10/26/2023 10:52:12 - INFO - modules.trainer -   	test_BLEU_2    : 0.2617241780147679
+10/26/2023 10:52:12 - INFO - modules.trainer -   	test_BLEU_3    : 0.18403300403990533
+10/26/2023 10:52:12 - INFO - modules.trainer -   	test_BLEU_4    : 0.1387374713687405
+10/26/2023 10:52:12 - INFO - modules.trainer -   	test_METEOR    : 0.1706577474618886
+10/26/2023 10:52:12 - INFO - modules.trainer -   	test_ROUGE_L   : 0.34176193528893667
+10/26/2023 10:52:18 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:52:18 - INFO - modules.trainer -   [19/70] Start to train in the training set.
+10/26/2023 10:52:18 - INFO - modules.trainer -   [19/70] Step: 0/130, Training Loss: 0.35386.
+10/26/2023 10:52:34 - INFO - modules.trainer -   [19/70] Step: 50/130, Training Loss: 0.47182.
+10/26/2023 10:52:50 - INFO - modules.trainer -   [19/70] Step: 100/130, Training Loss: 0.49266.
+10/26/2023 10:52:59 - INFO - modules.trainer -   [19/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:53:24 - INFO - modules.trainer -   [19/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:54:06 - INFO - modules.trainer -   	epoch          : 19
+10/26/2023 10:54:06 - INFO - modules.trainer -   	train_loss     : 0.5000017097363105
+10/26/2023 10:54:06 - INFO - modules.trainer -   	val_BLEU_1     : 0.32656746957674904
+10/26/2023 10:54:06 - INFO - modules.trainer -   	val_BLEU_2     : 0.19978261936056407
+10/26/2023 10:54:06 - INFO - modules.trainer -   	val_BLEU_3     : 0.13829414745190846
+10/26/2023 10:54:06 - INFO - modules.trainer -   	val_BLEU_4     : 0.10306590679818696
+10/26/2023 10:54:06 - INFO - modules.trainer -   	val_METEOR     : 0.13888861647970538
+10/26/2023 10:54:06 - INFO - modules.trainer -   	val_ROUGE_L    : 0.31697881974260156
+10/26/2023 10:54:06 - INFO - modules.trainer -   	test_BLEU_1    : 0.35090780348934575
+10/26/2023 10:54:06 - INFO - modules.trainer -   	test_BLEU_2    : 0.22172654174196732
+10/26/2023 10:54:06 - INFO - modules.trainer -   	test_BLEU_3    : 0.16013023474870866
+10/26/2023 10:54:06 - INFO - modules.trainer -   	test_BLEU_4    : 0.12367190889208321
+10/26/2023 10:54:06 - INFO - modules.trainer -   	test_METEOR    : 0.14844835512448587
+10/26/2023 10:54:06 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33090914655845827
+10/26/2023 10:54:11 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:54:11 - INFO - modules.trainer -   [20/70] Start to train in the training set.
+10/26/2023 10:54:12 - INFO - modules.trainer -   [20/70] Step: 0/130, Training Loss: 0.48063.
+10/26/2023 10:54:28 - INFO - modules.trainer -   [20/70] Step: 50/130, Training Loss: 0.46199.
+10/26/2023 10:54:44 - INFO - modules.trainer -   [20/70] Step: 100/130, Training Loss: 0.47283.
+10/26/2023 10:54:53 - INFO - modules.trainer -   [20/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:55:19 - INFO - modules.trainer -   [20/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:55:59 - INFO - modules.trainer -   	epoch          : 20
+10/26/2023 10:55:59 - INFO - modules.trainer -   	train_loss     : 0.4812795159908441
+10/26/2023 10:55:59 - INFO - modules.trainer -   	val_BLEU_1     : 0.35364857204261374
+10/26/2023 10:55:59 - INFO - modules.trainer -   	val_BLEU_2     : 0.20371993201827698
+10/26/2023 10:55:59 - INFO - modules.trainer -   	val_BLEU_3     : 0.13562658024560706
+10/26/2023 10:55:59 - INFO - modules.trainer -   	val_BLEU_4     : 0.09692191936746945
+10/26/2023 10:55:59 - INFO - modules.trainer -   	val_METEOR     : 0.13632735324162085
+10/26/2023 10:55:59 - INFO - modules.trainer -   	val_ROUGE_L    : 0.2882647532627323
+10/26/2023 10:55:59 - INFO - modules.trainer -   	test_BLEU_1    : 0.38637364749853226
+10/26/2023 10:55:59 - INFO - modules.trainer -   	test_BLEU_2    : 0.23155423643779827
+10/26/2023 10:55:59 - INFO - modules.trainer -   	test_BLEU_3    : 0.16383986126805433
+10/26/2023 10:55:59 - INFO - modules.trainer -   	test_BLEU_4    : 0.12558221299163708
+10/26/2023 10:55:59 - INFO - modules.trainer -   	test_METEOR    : 0.15158876835191928
+10/26/2023 10:55:59 - INFO - modules.trainer -   	test_ROUGE_L   : 0.319886707192492
+10/26/2023 10:56:05 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:56:05 - INFO - modules.trainer -   [21/70] Start to train in the training set.
+10/26/2023 10:56:06 - INFO - modules.trainer -   [21/70] Step: 0/130, Training Loss: 0.43542.
+10/26/2023 10:56:21 - INFO - modules.trainer -   [21/70] Step: 50/130, Training Loss: 0.43885.
+10/26/2023 10:56:37 - INFO - modules.trainer -   [21/70] Step: 100/130, Training Loss: 0.43875.
+10/26/2023 10:56:46 - INFO - modules.trainer -   [21/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:57:11 - INFO - modules.trainer -   [21/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:57:51 - INFO - modules.trainer -   	epoch          : 21
+10/26/2023 10:57:51 - INFO - modules.trainer -   	train_loss     : 0.44210875011407413
+10/26/2023 10:57:51 - INFO - modules.trainer -   	val_BLEU_1     : 0.33217369240491257
+10/26/2023 10:57:51 - INFO - modules.trainer -   	val_BLEU_2     : 0.19515449546641847
+10/26/2023 10:57:51 - INFO - modules.trainer -   	val_BLEU_3     : 0.12997555342451483
+10/26/2023 10:57:51 - INFO - modules.trainer -   	val_BLEU_4     : 0.09025364018036262
+10/26/2023 10:57:51 - INFO - modules.trainer -   	val_METEOR     : 0.13022580202220868
+10/26/2023 10:57:51 - INFO - modules.trainer -   	val_ROUGE_L    : 0.2893604877187166
+10/26/2023 10:57:51 - INFO - modules.trainer -   	test_BLEU_1    : 0.36622608817738306
+10/26/2023 10:57:51 - INFO - modules.trainer -   	test_BLEU_2    : 0.22537500491041282
+10/26/2023 10:57:51 - INFO - modules.trainer -   	test_BLEU_3    : 0.15791634124072815
+10/26/2023 10:57:51 - INFO - modules.trainer -   	test_BLEU_4    : 0.11813502252820378
+10/26/2023 10:57:51 - INFO - modules.trainer -   	test_METEOR    : 0.14678601814975614
+10/26/2023 10:57:51 - INFO - modules.trainer -   	test_ROUGE_L   : 0.31994991041048415
+10/26/2023 10:57:57 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:57:57 - INFO - modules.trainer -   [22/70] Start to train in the training set.
+10/26/2023 10:57:58 - INFO - modules.trainer -   [22/70] Step: 0/130, Training Loss: 0.39491.
+10/26/2023 10:58:13 - INFO - modules.trainer -   [22/70] Step: 50/130, Training Loss: 0.40450.
+10/26/2023 10:58:30 - INFO - modules.trainer -   [22/70] Step: 100/130, Training Loss: 0.41404.
+10/26/2023 10:58:39 - INFO - modules.trainer -   [22/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:59:05 - INFO - modules.trainer -   [22/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 10:59:45 - INFO - modules.trainer -   	epoch          : 22
+10/26/2023 10:59:45 - INFO - modules.trainer -   	train_loss     : 0.4174569363777454
+10/26/2023 10:59:45 - INFO - modules.trainer -   	val_BLEU_1     : 0.3844557784295822
+10/26/2023 10:59:45 - INFO - modules.trainer -   	val_BLEU_2     : 0.22896805735616096
+10/26/2023 10:59:45 - INFO - modules.trainer -   	val_BLEU_3     : 0.15631097631379826
+10/26/2023 10:59:45 - INFO - modules.trainer -   	val_BLEU_4     : 0.11388285035989873
+10/26/2023 10:59:45 - INFO - modules.trainer -   	val_METEOR     : 0.15472859315267942
+10/26/2023 10:59:45 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3069430941244258
+10/26/2023 10:59:45 - INFO - modules.trainer -   	test_BLEU_1    : 0.42780125095882615
+10/26/2023 10:59:45 - INFO - modules.trainer -   	test_BLEU_2    : 0.26832306760925084
+10/26/2023 10:59:45 - INFO - modules.trainer -   	test_BLEU_3    : 0.19291634960555307
+10/26/2023 10:59:45 - INFO - modules.trainer -   	test_BLEU_4    : 0.14658390075525163
+10/26/2023 10:59:45 - INFO - modules.trainer -   	test_METEOR    : 0.17552627642976965
+10/26/2023 10:59:45 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33632679664716764
+10/26/2023 10:59:52 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 10:59:52 - INFO - modules.trainer -   [23/70] Start to train in the training set.
+10/26/2023 10:59:52 - INFO - modules.trainer -   [23/70] Step: 0/130, Training Loss: 0.33618.
+10/26/2023 11:00:08 - INFO - modules.trainer -   [23/70] Step: 50/130, Training Loss: 0.39609.
+10/26/2023 11:00:24 - INFO - modules.trainer -   [23/70] Step: 100/130, Training Loss: 0.40263.
+10/26/2023 11:00:33 - INFO - modules.trainer -   [23/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:00:58 - INFO - modules.trainer -   [23/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:01:39 - INFO - modules.trainer -   	epoch          : 23
+10/26/2023 11:01:39 - INFO - modules.trainer -   	train_loss     : 0.4067230449273036
+10/26/2023 11:01:39 - INFO - modules.trainer -   	val_BLEU_1     : 0.343335805877319
+10/26/2023 11:01:39 - INFO - modules.trainer -   	val_BLEU_2     : 0.19631124422926194
+10/26/2023 11:01:39 - INFO - modules.trainer -   	val_BLEU_3     : 0.13154581556638437
+10/26/2023 11:01:39 - INFO - modules.trainer -   	val_BLEU_4     : 0.09482376707656476
+10/26/2023 11:01:39 - INFO - modules.trainer -   	val_METEOR     : 0.13705713258369137
+10/26/2023 11:01:39 - INFO - modules.trainer -   	val_ROUGE_L    : 0.30595201987618736
+10/26/2023 11:01:39 - INFO - modules.trainer -   	test_BLEU_1    : 0.3893890468206901
+10/26/2023 11:01:39 - INFO - modules.trainer -   	test_BLEU_2    : 0.23780206222513012
+10/26/2023 11:01:39 - INFO - modules.trainer -   	test_BLEU_3    : 0.16781507486439293
+10/26/2023 11:01:39 - INFO - modules.trainer -   	test_BLEU_4    : 0.1267627142990104
+10/26/2023 11:01:39 - INFO - modules.trainer -   	test_METEOR    : 0.15681520073498686
+10/26/2023 11:01:39 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33405257339870786
+10/26/2023 11:01:44 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:01:44 - INFO - modules.trainer -   [24/70] Start to train in the training set.
+10/26/2023 11:01:45 - INFO - modules.trainer -   [24/70] Step: 0/130, Training Loss: 0.33273.
+10/26/2023 11:02:01 - INFO - modules.trainer -   [24/70] Step: 50/130, Training Loss: 0.37607.
+10/26/2023 11:02:17 - INFO - modules.trainer -   [24/70] Step: 100/130, Training Loss: 0.38931.
+10/26/2023 11:02:26 - INFO - modules.trainer -   [24/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:02:52 - INFO - modules.trainer -   [24/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:03:31 - INFO - modules.trainer -   	epoch          : 24
+10/26/2023 11:03:31 - INFO - modules.trainer -   	train_loss     : 0.396666164123095
+10/26/2023 11:03:31 - INFO - modules.trainer -   	val_BLEU_1     : 0.4138495600968092
+10/26/2023 11:03:31 - INFO - modules.trainer -   	val_BLEU_2     : 0.24474740917800414
+10/26/2023 11:03:31 - INFO - modules.trainer -   	val_BLEU_3     : 0.16558271207640124
+10/26/2023 11:03:31 - INFO - modules.trainer -   	val_BLEU_4     : 0.11992804109184944
+10/26/2023 11:03:31 - INFO - modules.trainer -   	val_METEOR     : 0.1580326678817893
+10/26/2023 11:03:31 - INFO - modules.trainer -   	val_ROUGE_L    : 0.32970057606218384
+10/26/2023 11:03:31 - INFO - modules.trainer -   	test_BLEU_1    : 0.44359640961402946
+10/26/2023 11:03:31 - INFO - modules.trainer -   	test_BLEU_2    : 0.269863576711627
+10/26/2023 11:03:31 - INFO - modules.trainer -   	test_BLEU_3    : 0.18693484762077184
+10/26/2023 11:03:31 - INFO - modules.trainer -   	test_BLEU_4    : 0.1376257237061504
+10/26/2023 11:03:31 - INFO - modules.trainer -   	test_METEOR    : 0.1760042819048649
+10/26/2023 11:03:31 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33906050277587296
+10/26/2023 11:03:37 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:03:37 - INFO - modules.trainer -   [25/70] Start to train in the training set.
+10/26/2023 11:03:38 - INFO - modules.trainer -   [25/70] Step: 0/130, Training Loss: 0.36841.
+10/26/2023 11:03:54 - INFO - modules.trainer -   [25/70] Step: 50/130, Training Loss: 0.37900.
+10/26/2023 11:04:10 - INFO - modules.trainer -   [25/70] Step: 100/130, Training Loss: 0.38164.
+10/26/2023 11:04:19 - INFO - modules.trainer -   [25/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:04:44 - INFO - modules.trainer -   [25/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:05:24 - INFO - modules.trainer -   	epoch          : 25
+10/26/2023 11:05:24 - INFO - modules.trainer -   	train_loss     : 0.3850136227332629
+10/26/2023 11:05:24 - INFO - modules.trainer -   	val_BLEU_1     : 0.32096447459360394
+10/26/2023 11:05:24 - INFO - modules.trainer -   	val_BLEU_2     : 0.18982087146040516
+10/26/2023 11:05:24 - INFO - modules.trainer -   	val_BLEU_3     : 0.1294394129645486
+10/26/2023 11:05:24 - INFO - modules.trainer -   	val_BLEU_4     : 0.09370705447487958
+10/26/2023 11:05:24 - INFO - modules.trainer -   	val_METEOR     : 0.12981523648087673
+10/26/2023 11:05:24 - INFO - modules.trainer -   	val_ROUGE_L    : 0.30191041369020655
+10/26/2023 11:05:24 - INFO - modules.trainer -   	test_BLEU_1    : 0.36182897513231155
+10/26/2023 11:05:24 - INFO - modules.trainer -   	test_BLEU_2    : 0.22703078362814946
+10/26/2023 11:05:24 - INFO - modules.trainer -   	test_BLEU_3    : 0.16273362578637324
+10/26/2023 11:05:24 - INFO - modules.trainer -   	test_BLEU_4    : 0.12410429095556015
+10/26/2023 11:05:24 - INFO - modules.trainer -   	test_METEOR    : 0.1483368499482114
+10/26/2023 11:05:24 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3242462528503032
+10/26/2023 11:05:30 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:05:30 - INFO - modules.trainer -   [26/70] Start to train in the training set.
+10/26/2023 11:05:31 - INFO - modules.trainer -   [26/70] Step: 0/130, Training Loss: 0.39001.
+10/26/2023 11:05:47 - INFO - modules.trainer -   [26/70] Step: 50/130, Training Loss: 0.35927.
+10/26/2023 11:06:03 - INFO - modules.trainer -   [26/70] Step: 100/130, Training Loss: 0.37065.
+10/26/2023 11:06:13 - INFO - modules.trainer -   [26/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:06:38 - INFO - modules.trainer -   [26/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:07:18 - INFO - modules.trainer -   	epoch          : 26
+10/26/2023 11:07:18 - INFO - modules.trainer -   	train_loss     : 0.37356331898615913
+10/26/2023 11:07:18 - INFO - modules.trainer -   	val_BLEU_1     : 0.34957695937916466
+10/26/2023 11:07:18 - INFO - modules.trainer -   	val_BLEU_2     : 0.20577434891797725
+10/26/2023 11:07:18 - INFO - modules.trainer -   	val_BLEU_3     : 0.13899255525594592
+10/26/2023 11:07:18 - INFO - modules.trainer -   	val_BLEU_4     : 0.10154788666661753
+10/26/2023 11:07:18 - INFO - modules.trainer -   	val_METEOR     : 0.13810841743350236
+10/26/2023 11:07:18 - INFO - modules.trainer -   	val_ROUGE_L    : 0.305550245421691
+10/26/2023 11:07:18 - INFO - modules.trainer -   	test_BLEU_1    : 0.3620445205375928
+10/26/2023 11:07:18 - INFO - modules.trainer -   	test_BLEU_2    : 0.21829032518751243
+10/26/2023 11:07:18 - INFO - modules.trainer -   	test_BLEU_3    : 0.15160590865840345
+10/26/2023 11:07:18 - INFO - modules.trainer -   	test_BLEU_4    : 0.11162545680284032
+10/26/2023 11:07:18 - INFO - modules.trainer -   	test_METEOR    : 0.14412109161412315
+10/26/2023 11:07:18 - INFO - modules.trainer -   	test_ROUGE_L   : 0.31802592907568633
+10/26/2023 11:07:24 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:07:24 - INFO - modules.trainer -   [27/70] Start to train in the training set.
+10/26/2023 11:07:24 - INFO - modules.trainer -   [27/70] Step: 0/130, Training Loss: 0.32699.
+10/26/2023 11:07:42 - INFO - modules.trainer -   [27/70] Step: 50/130, Training Loss: 0.35396.
+10/26/2023 11:07:58 - INFO - modules.trainer -   [27/70] Step: 100/130, Training Loss: 0.36191.
+10/26/2023 11:08:08 - INFO - modules.trainer -   [27/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:08:32 - INFO - modules.trainer -   [27/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:09:12 - INFO - modules.trainer -   	epoch          : 27
+10/26/2023 11:09:12 - INFO - modules.trainer -   	train_loss     : 0.3634053532893841
+10/26/2023 11:09:12 - INFO - modules.trainer -   	val_BLEU_1     : 0.28838128260975493
+10/26/2023 11:09:12 - INFO - modules.trainer -   	val_BLEU_2     : 0.15783024901935727
+10/26/2023 11:09:12 - INFO - modules.trainer -   	val_BLEU_3     : 0.10201322334056759
+10/26/2023 11:09:12 - INFO - modules.trainer -   	val_BLEU_4     : 0.07065781987211736
+10/26/2023 11:09:12 - INFO - modules.trainer -   	val_METEOR     : 0.11873137811643154
+10/26/2023 11:09:12 - INFO - modules.trainer -   	val_ROUGE_L    : 0.26936813498644685
+10/26/2023 11:09:12 - INFO - modules.trainer -   	test_BLEU_1    : 0.3329154143621552
+10/26/2023 11:09:12 - INFO - modules.trainer -   	test_BLEU_2    : 0.19974726956926278
+10/26/2023 11:09:12 - INFO - modules.trainer -   	test_BLEU_3    : 0.14060419260571275
+10/26/2023 11:09:12 - INFO - modules.trainer -   	test_BLEU_4    : 0.10716310389870029
+10/26/2023 11:09:12 - INFO - modules.trainer -   	test_METEOR    : 0.1376895466705603
+10/26/2023 11:09:12 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3093308122996766
+10/26/2023 11:09:18 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:09:18 - INFO - modules.trainer -   [28/70] Start to train in the training set.
+10/26/2023 11:09:19 - INFO - modules.trainer -   [28/70] Step: 0/130, Training Loss: 0.34077.
+10/26/2023 11:09:35 - INFO - modules.trainer -   [28/70] Step: 50/130, Training Loss: 0.34692.
+10/26/2023 11:09:51 - INFO - modules.trainer -   [28/70] Step: 100/130, Training Loss: 0.35412.
+10/26/2023 11:10:00 - INFO - modules.trainer -   [28/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:10:25 - INFO - modules.trainer -   [28/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:11:05 - INFO - modules.trainer -   	epoch          : 28
+10/26/2023 11:11:05 - INFO - modules.trainer -   	train_loss     : 0.356441064293568
+10/26/2023 11:11:05 - INFO - modules.trainer -   	val_BLEU_1     : 0.35746315896836545
+10/26/2023 11:11:05 - INFO - modules.trainer -   	val_BLEU_2     : 0.20480017730878058
+10/26/2023 11:11:05 - INFO - modules.trainer -   	val_BLEU_3     : 0.13620713096960657
+10/26/2023 11:11:05 - INFO - modules.trainer -   	val_BLEU_4     : 0.0961279610601361
+10/26/2023 11:11:05 - INFO - modules.trainer -   	val_METEOR     : 0.1415470849628772
+10/26/2023 11:11:05 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29817290740461183
+10/26/2023 11:11:05 - INFO - modules.trainer -   	test_BLEU_1    : 0.40111386900841917
+10/26/2023 11:11:05 - INFO - modules.trainer -   	test_BLEU_2    : 0.2504818781255528
+10/26/2023 11:11:05 - INFO - modules.trainer -   	test_BLEU_3    : 0.17995538552592805
+10/26/2023 11:11:05 - INFO - modules.trainer -   	test_BLEU_4    : 0.13904746631728204
+10/26/2023 11:11:05 - INFO - modules.trainer -   	test_METEOR    : 0.16379200172101696
+10/26/2023 11:11:05 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33068359592755336
+10/26/2023 11:11:10 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:11:10 - INFO - modules.trainer -   [29/70] Start to train in the training set.
+10/26/2023 11:11:11 - INFO - modules.trainer -   [29/70] Step: 0/130, Training Loss: 0.35968.
+10/26/2023 11:11:27 - INFO - modules.trainer -   [29/70] Step: 50/130, Training Loss: 0.34201.
+10/26/2023 11:11:43 - INFO - modules.trainer -   [29/70] Step: 100/130, Training Loss: 0.34755.
+10/26/2023 11:11:52 - INFO - modules.trainer -   [29/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:12:17 - INFO - modules.trainer -   [29/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:12:56 - INFO - modules.trainer -   	epoch          : 29
+10/26/2023 11:12:56 - INFO - modules.trainer -   	train_loss     : 0.3520280120464472
+10/26/2023 11:12:56 - INFO - modules.trainer -   	val_BLEU_1     : 0.3737804195054638
+10/26/2023 11:12:56 - INFO - modules.trainer -   	val_BLEU_2     : 0.21925765966975555
+10/26/2023 11:12:56 - INFO - modules.trainer -   	val_BLEU_3     : 0.1460203601451878
+10/26/2023 11:12:56 - INFO - modules.trainer -   	val_BLEU_4     : 0.10329055604550909
+10/26/2023 11:12:56 - INFO - modules.trainer -   	val_METEOR     : 0.14869968688457977
+10/26/2023 11:12:56 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3054490791425396
+10/26/2023 11:12:56 - INFO - modules.trainer -   	test_BLEU_1    : 0.4079868381986755
+10/26/2023 11:12:56 - INFO - modules.trainer -   	test_BLEU_2    : 0.25014279841234965
+10/26/2023 11:12:56 - INFO - modules.trainer -   	test_BLEU_3    : 0.1762653896024504
+10/26/2023 11:12:56 - INFO - modules.trainer -   	test_BLEU_4    : 0.13259203926413832
+10/26/2023 11:12:56 - INFO - modules.trainer -   	test_METEOR    : 0.16399638824649643
+10/26/2023 11:12:56 - INFO - modules.trainer -   	test_ROUGE_L   : 0.32953901913631467
+10/26/2023 11:13:01 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:13:01 - INFO - modules.trainer -   [30/70] Start to train in the training set.
+10/26/2023 11:13:02 - INFO - modules.trainer -   [30/70] Step: 0/130, Training Loss: 0.31856.
+10/26/2023 11:13:18 - INFO - modules.trainer -   [30/70] Step: 50/130, Training Loss: 0.32617.
+10/26/2023 11:13:34 - INFO - modules.trainer -   [30/70] Step: 100/130, Training Loss: 0.33434.
+10/26/2023 11:13:43 - INFO - modules.trainer -   [30/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:14:08 - INFO - modules.trainer -   [30/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:14:47 - INFO - modules.trainer -   	epoch          : 30
+10/26/2023 11:14:47 - INFO - modules.trainer -   	train_loss     : 0.33995284346433785
+10/26/2023 11:14:47 - INFO - modules.trainer -   	val_BLEU_1     : 0.3587593581686965
+10/26/2023 11:14:47 - INFO - modules.trainer -   	val_BLEU_2     : 0.20942044295642098
+10/26/2023 11:14:47 - INFO - modules.trainer -   	val_BLEU_3     : 0.13991309907752092
+10/26/2023 11:14:47 - INFO - modules.trainer -   	val_BLEU_4     : 0.09913204485849887
+10/26/2023 11:14:47 - INFO - modules.trainer -   	val_METEOR     : 0.14406411086682958
+10/26/2023 11:14:47 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29833506049362907
+10/26/2023 11:14:47 - INFO - modules.trainer -   	test_BLEU_1    : 0.4087765421443271
+10/26/2023 11:14:47 - INFO - modules.trainer -   	test_BLEU_2    : 0.25450168168835396
+10/26/2023 11:14:47 - INFO - modules.trainer -   	test_BLEU_3    : 0.17996243120371974
+10/26/2023 11:14:47 - INFO - modules.trainer -   	test_BLEU_4    : 0.13561663183110192
+10/26/2023 11:14:47 - INFO - modules.trainer -   	test_METEOR    : 0.16770892048558703
+10/26/2023 11:14:47 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33677827872480876
+10/26/2023 11:14:53 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:14:53 - INFO - modules.trainer -   [31/70] Start to train in the training set.
+10/26/2023 11:14:54 - INFO - modules.trainer -   [31/70] Step: 0/130, Training Loss: 0.33628.
+10/26/2023 11:15:10 - INFO - modules.trainer -   [31/70] Step: 50/130, Training Loss: 0.31523.
+10/26/2023 11:15:25 - INFO - modules.trainer -   [31/70] Step: 100/130, Training Loss: 0.32124.
+10/26/2023 11:15:34 - INFO - modules.trainer -   [31/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:15:59 - INFO - modules.trainer -   [31/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:16:40 - INFO - modules.trainer -   	epoch          : 31
+10/26/2023 11:16:40 - INFO - modules.trainer -   	train_loss     : 0.3243113063848936
+10/26/2023 11:16:40 - INFO - modules.trainer -   	val_BLEU_1     : 0.3320574186742005
+10/26/2023 11:16:40 - INFO - modules.trainer -   	val_BLEU_2     : 0.18733759435238503
+10/26/2023 11:16:40 - INFO - modules.trainer -   	val_BLEU_3     : 0.12012214933838548
+10/26/2023 11:16:40 - INFO - modules.trainer -   	val_BLEU_4     : 0.08219283945917517
+10/26/2023 11:16:40 - INFO - modules.trainer -   	val_METEOR     : 0.135087055824381
+10/26/2023 11:16:40 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3034433428729988
+10/26/2023 11:16:40 - INFO - modules.trainer -   	test_BLEU_1    : 0.36641658797639953
+10/26/2023 11:16:40 - INFO - modules.trainer -   	test_BLEU_2    : 0.21704490286029712
+10/26/2023 11:16:40 - INFO - modules.trainer -   	test_BLEU_3    : 0.1465525100145856
+10/26/2023 11:16:40 - INFO - modules.trainer -   	test_BLEU_4    : 0.10562288811874584
+10/26/2023 11:16:40 - INFO - modules.trainer -   	test_METEOR    : 0.14892302819502798
+10/26/2023 11:16:40 - INFO - modules.trainer -   	test_ROUGE_L   : 0.322255712231636
+10/26/2023 11:16:45 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:16:45 - INFO - modules.trainer -   [32/70] Start to train in the training set.
+10/26/2023 11:16:46 - INFO - modules.trainer -   [32/70] Step: 0/130, Training Loss: 0.27302.
+10/26/2023 11:17:02 - INFO - modules.trainer -   [32/70] Step: 50/130, Training Loss: 0.31077.
+10/26/2023 11:17:18 - INFO - modules.trainer -   [32/70] Step: 100/130, Training Loss: 0.31621.
+10/26/2023 11:17:27 - INFO - modules.trainer -   [32/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:17:52 - INFO - modules.trainer -   [32/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:18:32 - INFO - modules.trainer -   	epoch          : 32
+10/26/2023 11:18:32 - INFO - modules.trainer -   	train_loss     : 0.3177387304030932
+10/26/2023 11:18:32 - INFO - modules.trainer -   	val_BLEU_1     : 0.3399349770305694
+10/26/2023 11:18:32 - INFO - modules.trainer -   	val_BLEU_2     : 0.19565872441186477
+10/26/2023 11:18:32 - INFO - modules.trainer -   	val_BLEU_3     : 0.13133962491287474
+10/26/2023 11:18:32 - INFO - modules.trainer -   	val_BLEU_4     : 0.09628424516902832
+10/26/2023 11:18:32 - INFO - modules.trainer -   	val_METEOR     : 0.13623972995520642
+10/26/2023 11:18:32 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29492482923294766
+10/26/2023 11:18:32 - INFO - modules.trainer -   	test_BLEU_1    : 0.38141721912589516
+10/26/2023 11:18:32 - INFO - modules.trainer -   	test_BLEU_2    : 0.23678743094418792
+10/26/2023 11:18:32 - INFO - modules.trainer -   	test_BLEU_3    : 0.16920312575529886
+10/26/2023 11:18:32 - INFO - modules.trainer -   	test_BLEU_4    : 0.13073053678938132
+10/26/2023 11:18:32 - INFO - modules.trainer -   	test_METEOR    : 0.1563589982438983
+10/26/2023 11:18:32 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3275602069622404
+10/26/2023 11:18:37 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:18:37 - INFO - modules.trainer -   [33/70] Start to train in the training set.
+10/26/2023 11:18:38 - INFO - modules.trainer -   [33/70] Step: 0/130, Training Loss: 0.34957.
+10/26/2023 11:18:54 - INFO - modules.trainer -   [33/70] Step: 50/130, Training Loss: 0.30504.
+10/26/2023 11:19:10 - INFO - modules.trainer -   [33/70] Step: 100/130, Training Loss: 0.31072.
+10/26/2023 11:19:19 - INFO - modules.trainer -   [33/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:19:44 - INFO - modules.trainer -   [33/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:20:24 - INFO - modules.trainer -   	epoch          : 33
+10/26/2023 11:20:24 - INFO - modules.trainer -   	train_loss     : 0.31037168984229746
+10/26/2023 11:20:24 - INFO - modules.trainer -   	val_BLEU_1     : 0.3402291916871925
+10/26/2023 11:20:24 - INFO - modules.trainer -   	val_BLEU_2     : 0.19139340953098694
+10/26/2023 11:20:24 - INFO - modules.trainer -   	val_BLEU_3     : 0.12296952500866994
+10/26/2023 11:20:24 - INFO - modules.trainer -   	val_BLEU_4     : 0.08422931776098239
+10/26/2023 11:20:24 - INFO - modules.trainer -   	val_METEOR     : 0.13350773233336927
+10/26/2023 11:20:24 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29195645747381094
+10/26/2023 11:20:24 - INFO - modules.trainer -   	test_BLEU_1    : 0.37792881412311297
+10/26/2023 11:20:24 - INFO - modules.trainer -   	test_BLEU_2    : 0.23020243946700455
+10/26/2023 11:20:24 - INFO - modules.trainer -   	test_BLEU_3    : 0.16203807186808644
+10/26/2023 11:20:24 - INFO - modules.trainer -   	test_BLEU_4    : 0.12368946608754686
+10/26/2023 11:20:24 - INFO - modules.trainer -   	test_METEOR    : 0.15093058540948714
+10/26/2023 11:20:24 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3255538569880024
+10/26/2023 11:20:30 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:20:30 - INFO - modules.trainer -   [34/70] Start to train in the training set.
+10/26/2023 11:20:30 - INFO - modules.trainer -   [34/70] Step: 0/130, Training Loss: 0.27791.
+10/26/2023 11:20:46 - INFO - modules.trainer -   [34/70] Step: 50/130, Training Loss: 0.29121.
+10/26/2023 11:21:02 - INFO - modules.trainer -   [34/70] Step: 100/130, Training Loss: 0.29952.
+10/26/2023 11:21:11 - INFO - modules.trainer -   [34/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:21:36 - INFO - modules.trainer -   [34/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:22:16 - INFO - modules.trainer -   	epoch          : 34
+10/26/2023 11:22:16 - INFO - modules.trainer -   	train_loss     : 0.30583669864214386
+10/26/2023 11:22:16 - INFO - modules.trainer -   	val_BLEU_1     : 0.3465111269911256
+10/26/2023 11:22:16 - INFO - modules.trainer -   	val_BLEU_2     : 0.20007698309756705
+10/26/2023 11:22:16 - INFO - modules.trainer -   	val_BLEU_3     : 0.13353106820611932
+10/26/2023 11:22:16 - INFO - modules.trainer -   	val_BLEU_4     : 0.09664193634322585
+10/26/2023 11:22:16 - INFO - modules.trainer -   	val_METEOR     : 0.13739661210304646
+10/26/2023 11:22:16 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29288608084793055
+10/26/2023 11:22:16 - INFO - modules.trainer -   	test_BLEU_1    : 0.3732202517097795
+10/26/2023 11:22:16 - INFO - modules.trainer -   	test_BLEU_2    : 0.22552761338207125
+10/26/2023 11:22:16 - INFO - modules.trainer -   	test_BLEU_3    : 0.1578357614110304
+10/26/2023 11:22:16 - INFO - modules.trainer -   	test_BLEU_4    : 0.11940239126465672
+10/26/2023 11:22:16 - INFO - modules.trainer -   	test_METEOR    : 0.14897534449006006
+10/26/2023 11:22:16 - INFO - modules.trainer -   	test_ROUGE_L   : 0.31480925964026524
+10/26/2023 11:22:22 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:22:22 - INFO - modules.trainer -   [35/70] Start to train in the training set.
+10/26/2023 11:22:22 - INFO - modules.trainer -   [35/70] Step: 0/130, Training Loss: 0.25368.
+10/26/2023 11:22:38 - INFO - modules.trainer -   [35/70] Step: 50/130, Training Loss: 0.29548.
+10/26/2023 11:22:54 - INFO - modules.trainer -   [35/70] Step: 100/130, Training Loss: 0.29876.
+10/26/2023 11:23:03 - INFO - modules.trainer -   [35/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:23:28 - INFO - modules.trainer -   [35/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:24:07 - INFO - modules.trainer -   	epoch          : 35
+10/26/2023 11:24:07 - INFO - modules.trainer -   	train_loss     : 0.30049060651889214
+10/26/2023 11:24:07 - INFO - modules.trainer -   	val_BLEU_1     : 0.31852860945263767
+10/26/2023 11:24:07 - INFO - modules.trainer -   	val_BLEU_2     : 0.18206041818655297
+10/26/2023 11:24:07 - INFO - modules.trainer -   	val_BLEU_3     : 0.11967152701511272
+10/26/2023 11:24:07 - INFO - modules.trainer -   	val_BLEU_4     : 0.08468198321377024
+10/26/2023 11:24:07 - INFO - modules.trainer -   	val_METEOR     : 0.12903330747125882
+10/26/2023 11:24:07 - INFO - modules.trainer -   	val_ROUGE_L    : 0.29744308639278755
+10/26/2023 11:24:07 - INFO - modules.trainer -   	test_BLEU_1    : 0.3536429193402842
+10/26/2023 11:24:07 - INFO - modules.trainer -   	test_BLEU_2    : 0.21320312399703759
+10/26/2023 11:24:07 - INFO - modules.trainer -   	test_BLEU_3    : 0.1474865486897481
+10/26/2023 11:24:07 - INFO - modules.trainer -   	test_BLEU_4    : 0.1092751071979454
+10/26/2023 11:24:07 - INFO - modules.trainer -   	test_METEOR    : 0.14496360097853417
+10/26/2023 11:24:07 - INFO - modules.trainer -   	test_ROUGE_L   : 0.31406728755433605
+10/26/2023 11:24:13 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:24:13 - INFO - modules.trainer -   [36/70] Start to train in the training set.
+10/26/2023 11:24:14 - INFO - modules.trainer -   [36/70] Step: 0/130, Training Loss: 0.24986.
+10/26/2023 11:24:29 - INFO - modules.trainer -   [36/70] Step: 50/130, Training Loss: 0.28590.
+10/26/2023 11:24:45 - INFO - modules.trainer -   [36/70] Step: 100/130, Training Loss: 0.29011.
+10/26/2023 11:24:54 - INFO - modules.trainer -   [36/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:25:20 - INFO - modules.trainer -   [36/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:25:59 - INFO - modules.trainer -   	epoch          : 36
+10/26/2023 11:25:59 - INFO - modules.trainer -   	train_loss     : 0.29495144612514057
+10/26/2023 11:25:59 - INFO - modules.trainer -   	val_BLEU_1     : 0.40179854895583456
+10/26/2023 11:25:59 - INFO - modules.trainer -   	val_BLEU_2     : 0.24319099373177158
+10/26/2023 11:25:59 - INFO - modules.trainer -   	val_BLEU_3     : 0.16798415374172734
+10/26/2023 11:25:59 - INFO - modules.trainer -   	val_BLEU_4     : 0.12482534559591346
+10/26/2023 11:25:59 - INFO - modules.trainer -   	val_METEOR     : 0.16301175566477755
+10/26/2023 11:25:59 - INFO - modules.trainer -   	val_ROUGE_L    : 0.31475756182847714
+10/26/2023 11:25:59 - INFO - modules.trainer -   	test_BLEU_1    : 0.4275974710879712
+10/26/2023 11:25:59 - INFO - modules.trainer -   	test_BLEU_2    : 0.2671313112732326
+10/26/2023 11:25:59 - INFO - modules.trainer -   	test_BLEU_3    : 0.18960309186978325
+10/26/2023 11:25:59 - INFO - modules.trainer -   	test_BLEU_4    : 0.14480655426750844
+10/26/2023 11:25:59 - INFO - modules.trainer -   	test_METEOR    : 0.17295570153321665
+10/26/2023 11:25:59 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3341456689269444
+10/26/2023 11:26:05 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:26:05 - INFO - modules.trainer -   [37/70] Start to train in the training set.
+10/26/2023 11:26:06 - INFO - modules.trainer -   [37/70] Step: 0/130, Training Loss: 0.26280.
+10/26/2023 11:26:21 - INFO - modules.trainer -   [37/70] Step: 50/130, Training Loss: 0.28733.
+10/26/2023 11:26:37 - INFO - modules.trainer -   [37/70] Step: 100/130, Training Loss: 0.29123.
+10/26/2023 11:26:47 - INFO - modules.trainer -   [37/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:27:11 - INFO - modules.trainer -   [37/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:27:51 - INFO - modules.trainer -   	epoch          : 37
+10/26/2023 11:27:51 - INFO - modules.trainer -   	train_loss     : 0.2933966564444395
+10/26/2023 11:27:51 - INFO - modules.trainer -   	val_BLEU_1     : 0.37478340719282965
+10/26/2023 11:27:51 - INFO - modules.trainer -   	val_BLEU_2     : 0.22707612055713758
+10/26/2023 11:27:51 - INFO - modules.trainer -   	val_BLEU_3     : 0.1523920236106131
+10/26/2023 11:27:51 - INFO - modules.trainer -   	val_BLEU_4     : 0.10738688497932462
+10/26/2023 11:27:51 - INFO - modules.trainer -   	val_METEOR     : 0.15270260307490033
+10/26/2023 11:27:51 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3065352049540904
+10/26/2023 11:27:51 - INFO - modules.trainer -   	test_BLEU_1    : 0.3970880537931324
+10/26/2023 11:27:51 - INFO - modules.trainer -   	test_BLEU_2    : 0.2468739904964169
+10/26/2023 11:27:51 - INFO - modules.trainer -   	test_BLEU_3    : 0.16870739415454236
+10/26/2023 11:27:51 - INFO - modules.trainer -   	test_BLEU_4    : 0.12098334437783367
+10/26/2023 11:27:51 - INFO - modules.trainer -   	test_METEOR    : 0.16527265168353145
+10/26/2023 11:27:51 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3275879291108082
+10/26/2023 11:27:57 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:27:57 - INFO - modules.trainer -   [38/70] Start to train in the training set.
+10/26/2023 11:27:58 - INFO - modules.trainer -   [38/70] Step: 0/130, Training Loss: 0.24609.
+10/26/2023 11:28:13 - INFO - modules.trainer -   [38/70] Step: 50/130, Training Loss: 0.27992.
+10/26/2023 11:28:29 - INFO - modules.trainer -   [38/70] Step: 100/130, Training Loss: 0.28702.
+10/26/2023 11:28:38 - INFO - modules.trainer -   [38/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:29:03 - INFO - modules.trainer -   [38/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:29:42 - INFO - modules.trainer -   	epoch          : 38
+10/26/2023 11:29:42 - INFO - modules.trainer -   	train_loss     : 0.28930433083039064
+10/26/2023 11:29:42 - INFO - modules.trainer -   	val_BLEU_1     : 0.3893531485212664
+10/26/2023 11:29:42 - INFO - modules.trainer -   	val_BLEU_2     : 0.2274586028025483
+10/26/2023 11:29:42 - INFO - modules.trainer -   	val_BLEU_3     : 0.1497144581245594
+10/26/2023 11:29:42 - INFO - modules.trainer -   	val_BLEU_4     : 0.10519767936054118
+10/26/2023 11:29:42 - INFO - modules.trainer -   	val_METEOR     : 0.1525413101737137
+10/26/2023 11:29:42 - INFO - modules.trainer -   	val_ROUGE_L    : 0.30067801145564255
+10/26/2023 11:29:42 - INFO - modules.trainer -   	test_BLEU_1    : 0.4003958534582567
+10/26/2023 11:29:42 - INFO - modules.trainer -   	test_BLEU_2    : 0.24481324749991384
+10/26/2023 11:29:42 - INFO - modules.trainer -   	test_BLEU_3    : 0.17199371090067592
+10/26/2023 11:29:42 - INFO - modules.trainer -   	test_BLEU_4    : 0.13011523469067982
+10/26/2023 11:29:42 - INFO - modules.trainer -   	test_METEOR    : 0.16209031978637864
+10/26/2023 11:29:42 - INFO - modules.trainer -   	test_ROUGE_L   : 0.31934055273770606
+10/26/2023 11:29:48 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:29:48 - INFO - modules.trainer -   [39/70] Start to train in the training set.
+10/26/2023 11:29:48 - INFO - modules.trainer -   [39/70] Step: 0/130, Training Loss: 0.27736.
+10/26/2023 11:30:04 - INFO - modules.trainer -   [39/70] Step: 50/130, Training Loss: 0.27907.
+10/26/2023 11:30:20 - INFO - modules.trainer -   [39/70] Step: 100/130, Training Loss: 0.28291.
+10/26/2023 11:30:29 - INFO - modules.trainer -   [39/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:30:54 - INFO - modules.trainer -   [39/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:31:33 - INFO - modules.trainer -   	epoch          : 39
+10/26/2023 11:31:33 - INFO - modules.trainer -   	train_loss     : 0.28542564797859926
+10/26/2023 11:31:33 - INFO - modules.trainer -   	val_BLEU_1     : 0.4109520068761179
+10/26/2023 11:31:33 - INFO - modules.trainer -   	val_BLEU_2     : 0.24687045939802307
+10/26/2023 11:31:33 - INFO - modules.trainer -   	val_BLEU_3     : 0.16856532419779416
+10/26/2023 11:31:33 - INFO - modules.trainer -   	val_BLEU_4     : 0.12409399980823262
+10/26/2023 11:31:33 - INFO - modules.trainer -   	val_METEOR     : 0.161570782947213
+10/26/2023 11:31:33 - INFO - modules.trainer -   	val_ROUGE_L    : 0.32521896891821617
+10/26/2023 11:31:33 - INFO - modules.trainer -   	test_BLEU_1    : 0.4237099005588039
+10/26/2023 11:31:33 - INFO - modules.trainer -   	test_BLEU_2    : 0.26192237883042163
+10/26/2023 11:31:33 - INFO - modules.trainer -   	test_BLEU_3    : 0.1833182450387176
+10/26/2023 11:31:33 - INFO - modules.trainer -   	test_BLEU_4    : 0.1371521431648275
+10/26/2023 11:31:33 - INFO - modules.trainer -   	test_METEOR    : 0.17076409415033422
+10/26/2023 11:31:33 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3321845774549
+10/26/2023 11:31:39 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:31:39 - INFO - modules.trainer -   [40/70] Start to train in the training set.
+10/26/2023 11:31:40 - INFO - modules.trainer -   [40/70] Step: 0/130, Training Loss: 0.25264.
+10/26/2023 11:31:56 - INFO - modules.trainer -   [40/70] Step: 50/130, Training Loss: 0.27910.
+10/26/2023 11:32:11 - INFO - modules.trainer -   [40/70] Step: 100/130, Training Loss: 0.28270.
+10/26/2023 11:32:21 - INFO - modules.trainer -   [40/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:32:46 - INFO - modules.trainer -   [40/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:33:25 - INFO - modules.trainer -   	epoch          : 40
+10/26/2023 11:33:25 - INFO - modules.trainer -   	train_loss     : 0.2843597260805277
+10/26/2023 11:33:25 - INFO - modules.trainer -   	val_BLEU_1     : 0.3695833990178965
+10/26/2023 11:33:25 - INFO - modules.trainer -   	val_BLEU_2     : 0.21903516744923923
+10/26/2023 11:33:25 - INFO - modules.trainer -   	val_BLEU_3     : 0.14650867860287534
+10/26/2023 11:33:25 - INFO - modules.trainer -   	val_BLEU_4     : 0.1048689654225197
+10/26/2023 11:33:25 - INFO - modules.trainer -   	val_METEOR     : 0.14652210277081198
+10/26/2023 11:33:25 - INFO - modules.trainer -   	val_ROUGE_L    : 0.3097974835389816
+10/26/2023 11:33:25 - INFO - modules.trainer -   	test_BLEU_1    : 0.40586288882647453
+10/26/2023 11:33:25 - INFO - modules.trainer -   	test_BLEU_2    : 0.2515039941012575
+10/26/2023 11:33:25 - INFO - modules.trainer -   	test_BLEU_3    : 0.17656635541402113
+10/26/2023 11:33:25 - INFO - modules.trainer -   	test_BLEU_4    : 0.13170376956311042
+10/26/2023 11:33:25 - INFO - modules.trainer -   	test_METEOR    : 0.1654376453399819
+10/26/2023 11:33:25 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33048902016325765
+10/26/2023 11:33:31 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:33:31 - INFO - modules.trainer -   [41/70] Start to train in the training set.
+10/26/2023 11:33:32 - INFO - modules.trainer -   [41/70] Step: 0/130, Training Loss: 0.23947.
+10/26/2023 11:33:48 - INFO - modules.trainer -   [41/70] Step: 50/130, Training Loss: 0.26261.
+10/26/2023 11:34:04 - INFO - modules.trainer -   [41/70] Step: 100/130, Training Loss: 0.26974.
+10/26/2023 11:34:13 - INFO - modules.trainer -   [41/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:34:37 - INFO - modules.trainer -   [41/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:35:17 - INFO - modules.trainer -   	epoch          : 41
+10/26/2023 11:35:17 - INFO - modules.trainer -   	train_loss     : 0.2730834756906216
+10/26/2023 11:35:17 - INFO - modules.trainer -   	val_BLEU_1     : 0.3575736117174549
+10/26/2023 11:35:17 - INFO - modules.trainer -   	val_BLEU_2     : 0.20408051860490264
+10/26/2023 11:35:17 - INFO - modules.trainer -   	val_BLEU_3     : 0.13165856246263344
+10/26/2023 11:35:17 - INFO - modules.trainer -   	val_BLEU_4     : 0.08979418406564763
+10/26/2023 11:35:17 - INFO - modules.trainer -   	val_METEOR     : 0.13989054322324712
+10/26/2023 11:35:17 - INFO - modules.trainer -   	val_ROUGE_L    : 0.294996585634126
+10/26/2023 11:35:17 - INFO - modules.trainer -   	test_BLEU_1    : 0.3815405368951923
+10/26/2023 11:35:17 - INFO - modules.trainer -   	test_BLEU_2    : 0.22574521213189638
+10/26/2023 11:35:17 - INFO - modules.trainer -   	test_BLEU_3    : 0.15199537698098742
+10/26/2023 11:35:17 - INFO - modules.trainer -   	test_BLEU_4    : 0.10930137838470261
+10/26/2023 11:35:17 - INFO - modules.trainer -   	test_METEOR    : 0.15196605335821303
+10/26/2023 11:35:17 - INFO - modules.trainer -   	test_ROUGE_L   : 0.3179885527452939
+10/26/2023 11:35:22 - INFO - modules.trainer -   Saving checkpoint: results/iu_xray0823_bs8_layer5_CMN/current_checkpoint.pth ...
+10/26/2023 11:35:22 - INFO - modules.trainer -   [42/70] Start to train in the training set.
+10/26/2023 11:35:23 - INFO - modules.trainer -   [42/70] Step: 0/130, Training Loss: 0.25770.
+10/26/2023 11:35:39 - INFO - modules.trainer -   [42/70] Step: 50/130, Training Loss: 0.26278.
+10/26/2023 11:35:55 - INFO - modules.trainer -   [42/70] Step: 100/130, Training Loss: 0.26592.
+10/26/2023 11:36:04 - INFO - modules.trainer -   [42/70] Start to evaluate in the validation set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:36:28 - INFO - modules.trainer -   [42/70] Start to evaluate in the test set.
+/root/paddlejob/workspace/liujunyi_new_work_space/liujunyi05/R2GenCMN_for_only_transformer/modules/caption_model.py:73: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  beam_ix = ix // vocab_size  # Nxb which beam
+10/26/2023 11:37:08 - INFO - modules.trainer -   	epoch          : 42
+10/26/2023 11:37:08 - INFO - modules.trainer -   	train_loss     : 0.26801027747300954
+10/26/2023 11:37:08 - INFO - modules.trainer -   	val_BLEU_1     : 0.34887115181664186
+10/26/2023 11:37:08 - INFO - modules.trainer -   	val_BLEU_2     : 0.19974211247002094
+10/26/2023 11:37:08 - INFO - modules.trainer -   	val_BLEU_3     : 0.13143701741507782
+10/26/2023 11:37:08 - INFO - modules.trainer -   	val_BLEU_4     : 0.0925834573033302
+10/26/2023 11:37:08 - INFO - modules.trainer -   	val_METEOR     : 0.13769738312833085
+10/26/2023 11:37:08 - INFO - modules.trainer -   	val_ROUGE_L    : 0.2927406736507188
+10/26/2023 11:37:08 - INFO - modules.trainer -   	test_BLEU_1    : 0.385096638407516
+10/26/2023 11:37:08 - INFO - modules.trainer -   	test_BLEU_2    : 0.2370771396720689
+10/26/2023 11:37:08 - INFO - modules.trainer -   	test_BLEU_3    : 0.16844916588993664
+10/26/2023 11:37:08 - INFO - modules.trainer -   	test_BLEU_4    : 0.12879297585226054
+10/26/2023 11:37:08 - INFO - modules.trainer -   	test_METEOR    : 0.15669758576595383
+10/26/2023 11:37:08 - INFO - modules.trainer -   	test_ROUGE_L   : 0.33056537116577794
+10/26/2023 11:37:08 - INFO - modules.trainer -   Validation performance didn't improve for 40 epochs. Training stops.

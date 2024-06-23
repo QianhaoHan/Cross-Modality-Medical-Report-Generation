@@ -1,0 +1,5 @@
+# ignore results
+results/
+log/
+MedCLIP/
+pretrained/
